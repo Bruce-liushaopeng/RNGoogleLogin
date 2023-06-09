@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		24ECFA4E2A33B5B200E1CB38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24ECFA4D2A33B5B200E1CB38 /* GoogleService-Info.plist */; };
 		63765E4C11B337A6C08A2DF3 /* Pods_RNGoogleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21167F06C594195FD4F1071E /* Pods_RNGoogleLogin.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B24B01AA66CAE60AF7BFC90A /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74C4603A9503C8380E5D81 /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework */; };
@@ -38,7 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNGoogleLogin/main.m; sourceTree = "<group>"; };
 		18835D9393A53B18AE8989DD /* Pods-RNGoogleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin.release.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin/Pods-RNGoogleLogin.release.xcconfig"; sourceTree = "<group>"; };
 		21167F06C594195FD4F1071E /* Pods_RNGoogleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNGoogleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24ECFA4A2A33AD7A00E1CB38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24ECFA4D2A33B5B200E1CB38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		27D4547E873B02559C64D22B /* Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin-RNGoogleLoginTests/Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNGoogleLogin/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA29CDA0AF2F40DD2500C42 /* Pods-RNGoogleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin.debug.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin/Pods-RNGoogleLogin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		13B07FAE1A68108700A75B9A /* RNGoogleLogin */ = {
 			isa = PBXGroup;
 			children = (
-				24ECFA4A2A33AD7A00E1CB38 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -118,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				24ECFA4D2A33B5B200E1CB38 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* RNGoogleLogin */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNGoogleLoginTests */,
@@ -246,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				24ECFA4E2A33B5B200E1CB38 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
