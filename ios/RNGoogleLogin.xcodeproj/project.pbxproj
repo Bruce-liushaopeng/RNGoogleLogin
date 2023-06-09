@@ -11,10 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		24760E9A2A32615E0028F671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24760E992A32615D0028F671 /* GoogleService-Info.plist */; };
-		48A048898826A60E9E2C11CA /* libPods-RNGoogleLogin-RNGoogleLoginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E065D273DD5FB5352CC9AB39 /* libPods-RNGoogleLogin-RNGoogleLoginTests.a */; };
+		63765E4C11B337A6C08A2DF3 /* Pods_RNGoogleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21167F06C594195FD4F1071E /* Pods_RNGoogleLogin.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BD679AF1E429034F85CCC2FE /* libPods-RNGoogleLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C69CFF58CDCC476E5F79F8C /* libPods-RNGoogleLogin.a */; };
+		B24B01AA66CAE60AF7BFC90A /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB74C4603A9503C8380E5D81 /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +30,6 @@
 		00E356EE1AD99517003FC87E /* RNGoogleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNGoogleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNGoogleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGoogleLoginTests.m; sourceTree = "<group>"; };
-		0C69CFF58CDCC476E5F79F8C /* libPods-RNGoogleLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGoogleLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* RNGoogleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNGoogleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNGoogleLogin/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNGoogleLogin/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,12 +37,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNGoogleLogin/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNGoogleLogin/main.m; sourceTree = "<group>"; };
 		18835D9393A53B18AE8989DD /* Pods-RNGoogleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin.release.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin/Pods-RNGoogleLogin.release.xcconfig"; sourceTree = "<group>"; };
-		24760E992A32615D0028F671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21167F06C594195FD4F1071E /* Pods_RNGoogleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNGoogleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24ECFA4A2A33AD7A00E1CB38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		27D4547E873B02559C64D22B /* Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin-RNGoogleLoginTests/Pods-RNGoogleLogin-RNGoogleLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNGoogleLogin/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA29CDA0AF2F40DD2500C42 /* Pods-RNGoogleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin.debug.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin/Pods-RNGoogleLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		C87082D8AB4BB401B9E8A331 /* Pods-RNGoogleLogin-RNGoogleLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGoogleLogin-RNGoogleLoginTests.release.xcconfig"; path = "Target Support Files/Pods-RNGoogleLogin-RNGoogleLoginTests/Pods-RNGoogleLogin-RNGoogleLoginTests.release.xcconfig"; sourceTree = "<group>"; };
-		E065D273DD5FB5352CC9AB39 /* libPods-RNGoogleLogin-RNGoogleLoginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGoogleLogin-RNGoogleLoginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB74C4603A9503C8380E5D81 /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNGoogleLogin_RNGoogleLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A048898826A60E9E2C11CA /* libPods-RNGoogleLogin-RNGoogleLoginTests.a in Frameworks */,
+				B24B01AA66CAE60AF7BFC90A /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD679AF1E429034F85CCC2FE /* libPods-RNGoogleLogin.a in Frameworks */,
+				63765E4C11B337A6C08A2DF3 /* Pods_RNGoogleLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* RNGoogleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				24ECFA4A2A33AD7A00E1CB38 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				0C69CFF58CDCC476E5F79F8C /* libPods-RNGoogleLogin.a */,
-				E065D273DD5FB5352CC9AB39 /* libPods-RNGoogleLogin-RNGoogleLoginTests.a */,
+				21167F06C594195FD4F1071E /* Pods_RNGoogleLogin.framework */,
+				DB74C4603A9503C8380E5D81 /* Pods_RNGoogleLogin_RNGoogleLoginTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,7 +118,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				24760E992A32615D0028F671 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* RNGoogleLogin */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNGoogleLoginTests */,
@@ -245,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24760E9A2A32615E0028F671 /* GoogleService-Info.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
